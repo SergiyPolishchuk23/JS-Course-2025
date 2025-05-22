@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //    let sum = 2000;
+      //    if(sum>1000) {
+      //    console.log("znugka 20%")
+      // } else { console.log("nema zhugku");
+
+      // }
+
+      // let dayNumber = prompt("vvedit chyslo vidd 1 do 2");
+      // switch (dayNumber)
+      // {
+      //     case "1":
+      //         alert("Ponedilok");
+      //         break;
+      //     case "2":
+      //         alert("Vivtorok");
+      //         break;
+      // }
+    //   let dayNumber = 1;
+    //   switch (dayNumber) {
+    //     case 0:
+    //       console.log("Ponedilok");
+    //       break;
+    //     case 1:
+    //       console.log("Vivtorok:");
+    //       break;
+    //     case 2:
+    //       console.log("Sereda");
+    //       break;
+    //     case 3:
+    //       console.log("Chetwer");
+    //       break;
+    //   }
+    // let sum = 100;
+    // let res = sum > 1000 ? "znugka" : "nema znugku";
+    // console.log(res);
+
+    // let bak = 50;
+    // let actOfFull = bak <50 ? "Ne povnuy" : "Povnuy";
+    // console.log(actOfFull);
+
+    //
+    // let counter = 1;
+
+    // while(counter < 51) {
+    //     console.log("test" + counter);   
+    //     counter = counter + 1;
+    // }
+    //     let counter = 1;
+
+    // do {
+    //     console.log("test" + counter); 
+    //     counter = counter + 1;
+    // } while (counter < 51); 
+
+    
+    // for(let counter = 0; counter<50; counter++){
+    //     console.log("iteraciya" + counter);
+    // }
+
+// let randomNumber = Math.floor(Math.random() * 100) +1;
+//     // Ctrl + D Ctrl + S
+//     let gameIsOver = false;
+//     while (true) {
+//         let value = Number(prompt("Uvedit znachennya"));
+
+//         if(value == randomNumber) {
+//             alert("CONGRATULATION. Zagadane Chuslo "+ randomNumber);
+//             break;
+//         }
+//         else if (value> randomNumber) {
+//             alert("Zagadane chuslo menche " + value);
+//         }
+//         else if (value< randomNumber) {
+//             alert("Zagadane chuslo bilshe "+ value);
+//         }
+       
+//     }
+    
+let value = "abccba";
+let len = value.length;
+
+for (let i = 0; i < len/2; i++) {
+ if (value[i] !== value[len - i - 1]) {
+    console.log("Ne polindrom");
+    break;
+  }
+  if (i === Math.floor(len / 2) - 1) {
+    console.log("Polindrom");
+  }
+  
+ }
+  
+    
+    
+    
+    </script>
+  </body>
+</html>
